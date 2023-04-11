@@ -7,11 +7,10 @@
     android:layout_height="match_parent">
 
 
-
     <EditText
         android:id="@+id/email"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Email"
         android:paddingLeft="20dp"
@@ -19,15 +18,15 @@
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Password"
         android:paddingLeft="20dp"
@@ -38,13 +37,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintVertical_bias="0.015" />
+        app:layout_constraintVertical_bias="0.02" />
 
 
     <EditText
         android:id="@+id/confirm_password"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Confirm Password"
         android:paddingLeft="20dp"
@@ -55,12 +54,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.02" />
 
     <EditText
         android:id="@+id/last_name"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Last Name"
         android:paddingLeft="20dp"
@@ -76,7 +75,7 @@
     <EditText
         android:id="@+id/first_name"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg"
         android:hint="First Name"
         android:paddingLeft="20dp"
@@ -87,12 +86,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirm_password"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.02" />
 
     <EditText
         android:id="@+id/phone_num"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Phone Number"
         android:paddingLeft="20dp"
@@ -103,12 +102,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/last_name"
-        app:layout_constraintVertical_bias="0.021" />
+        app:layout_constraintVertical_bias="0.02" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="0dp"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:background="@drawable/button_bg"
         android:text="Signup"
         android:textSize="16sp"
@@ -117,7 +116,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phone_num"
-        app:layout_constraintVertical_bias="0.139"
+        app:layout_constraintVertical_bias="0.2"
         app:layout_constraintWidth_percent=".8" />
 
     <androidx.constraintlayout.widget.Guideline

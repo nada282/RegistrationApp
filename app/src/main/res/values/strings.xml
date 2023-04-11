@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">RegistrationApp</string>
+    <string name="wel_come" translatable="false">Welcome to application around us</string>
+</resources>

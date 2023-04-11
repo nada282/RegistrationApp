@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق</string>
+    <string name="wel_come" translatable="false">مرحبابكم في تطبيق حولينا</string>
+</resources>
